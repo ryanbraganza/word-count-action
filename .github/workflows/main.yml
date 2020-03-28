@@ -9,7 +9,7 @@ jobs:
     steps:
     - name: Counting words
       id: count
-      uses: ryanbraganza/word-count-action@v1
+      uses: ryanbraganza/word-count-action@v2
       with:
         words: 'Some words are here.'
     # Use the output from the `hello` step
