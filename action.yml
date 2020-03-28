@@ -1,0 +1,13 @@
+name: 'Word count'
+description: 'counts words'
+inputs:
+  words:
+    description: 'words to count'
+    required: true
+    default: 'one two three'
+outputs:
+  count:
+    description: 'number of words'
+runs:
+  using: 'node12'
+  main: 'index.js'
