@@ -17,7 +17,7 @@ The number of words
 ## Example usage
 
 ```
-uses: ryanbraganza/word-count-action@v4
+uses: ryanbraganza/word-count-action@v5
 with:
   words: 'Stay inside. Do not go out.'
 ```
